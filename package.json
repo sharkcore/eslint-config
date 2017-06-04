@@ -17,6 +17,7 @@
   "license": "MIT",
   "homepage": "https://github.com/magicmark/eslint-config#readme",
   "dependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-config-prettier": "^2.1.1",
