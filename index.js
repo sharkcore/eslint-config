@@ -3,7 +3,7 @@ module.exports = {
     'airbnb',
     'plugin:flowtype/recommended',
     'prettier',
-    'prettier/flowtype'
+    'prettier/flowtype',
   ],
   plugins: ['flowtype', 'prettier'],
   parser: 'babel-eslint',
@@ -11,8 +11,8 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module',
     ecmaFeatures: {
-      'jsx': true
-    }
+      jsx: true,
+    },
   },
   env: {
     es6: true,
@@ -21,14 +21,14 @@ module.exports = {
     quotes: [
       'error',
       'single',
-      { avoidEscape: true, allowTemplateLiterals: true }
+      { avoidEscape: true, allowTemplateLiterals: true },
     ],
     'prettier/prettier': [
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all'
-      }
-    ]
-  }
+        trailingComma: 'all',
+      },
+    ],
+  },
 };
