@@ -4,6 +4,7 @@
   "description": "Sharkcore eslint config",
   "main": "index.js",
   "scripts": {
+    "precommit": "yarn test",
     "test": "eslint --config index.js ."
   },
   "repository": {
@@ -31,5 +32,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["index.js"]
+  "files": ["index.js"],
+  "devDependencies": {
+    "husky": "^0.14.3"
+  }
 }
