@@ -1,6 +1,6 @@
 {
   "name": "@sharkcore/eslint-config",
-  "version": "2.0.1",
+  "version": "1.0.0",
   "description": "Sharkcore eslint config",
   "main": "index.js",
   "scripts": {
