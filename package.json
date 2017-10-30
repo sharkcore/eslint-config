@@ -5,25 +5,29 @@
   "main": "index.js",
   "scripts": {
     "precommit": "yarn test",
-    "test": "eslint --config index.js ."
+    "test": "eslint --config index.js .",
+    "upgrade-eslint-airbnb": "install-peerdeps --yarn eslint-config-airbnb"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sharkcore/eslint-config.git"
   },
-  "keywords": ["eslint", "eslint-config"],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/sharkcore/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^4.5.0",
-    "eslint-config-airbnb": "^15.1.0",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-prettier": "^2.2.0",
-    "eslint-plugin-react": "^7.2.1",
+    "eslint-plugin-react": "^7.4.0",
     "prettier": "^1.4.2"
   },
   "peerDependencies": {
@@ -32,8 +36,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "devDependencies": {
-    "husky": "^0.14.3"
+    "husky": "^0.14.3",
+    "install-peerdeps": "^1.2.0"
   }
 }
