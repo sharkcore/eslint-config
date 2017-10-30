@@ -1,21 +1,18 @@
 {
-  "name": "@mlarah/eslint-config",
+  "name": "@sharkcore/eslint-config",
   "version": "2.0.1",
-  "description": "My sharable eslint config",
+  "description": "Sharkcore eslint config",
   "main": "index.js",
   "scripts": {
     "test": "eslint --config index.js ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/magicmark/eslint-config.git"
+    "url": "git+https://github.com/sharkcore/eslint-config.git"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
+  "keywords": ["eslint", "eslint-config"],
   "license": "MIT",
-  "homepage": "https://github.com/magicmark/eslint-config#readme",
+  "homepage": "https://github.com/sharkcore/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
@@ -34,7 +31,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "index.js"
-  ]
+  "files": ["index.js"]
 }
