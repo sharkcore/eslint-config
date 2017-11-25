@@ -22,6 +22,7 @@ module.exports = {
         // Enforce indent size of 4 spaces to conform to shark standards
         indent: ['error', 4],
         'react/jsx-indent': ['error', 4],
+        'react/jsx-filename-extension': 'off',
 
         quotes: [
             'error',
