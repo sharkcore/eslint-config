@@ -4,6 +4,7 @@ module.exports = {
         'plugin:flowtype/recommended',
         'prettier',
         'prettier/flowtype',
+        'prettier/react',
     ],
     plugins: ['flowtype', 'prettier'],
     parser: 'babel-eslint',
@@ -19,16 +20,7 @@ module.exports = {
         es6: true,
     },
     rules: {
-        // Enforce indent size of 4 spaces to conform to shark standards
-        indent: ['error', 4],
-        'react/jsx-indent': ['error', 4],
         'react/jsx-filename-extension': 'off',
-
-        quotes: [
-            'error',
-            'single',
-            { avoidEscape: true, allowTemplateLiterals: true },
-        ],
         'prettier/prettier': [
             'error',
             {
