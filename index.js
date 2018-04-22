@@ -19,7 +19,7 @@ module.exports = {
         es6: true,
     },
     rules: {
-        'import/order': 2,
+        'import/order': ['error', { 'newlines-between': 'always' }],
         'react/jsx-filename-extension': 'off',
         'prettier/prettier': [
             'error',
