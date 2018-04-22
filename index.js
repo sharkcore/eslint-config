@@ -9,17 +9,17 @@ module.exports = {
     plugins: ['flowtype', 'prettier'],
     parser: 'babel-eslint',
     parserOptions: {
-        ecmaVersion: 2017,
+        ecmaVersion: 2018,
         sourceType: 'module',
         ecmaFeatures: {
             jsx: true,
-            experimentalObjectRestSpread: true,
         },
     },
     env: {
         es6: true,
     },
     rules: {
+        'import/order': 2,
         'react/jsx-filename-extension': 'off',
         'prettier/prettier': [
             'error',
