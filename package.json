@@ -34,6 +34,6 @@
   },
   "files": ["index.js"],
   "devDependencies": {
-    "husky": "^0.14.3"
+    "husky": "^1.0.1"
   }
 }
