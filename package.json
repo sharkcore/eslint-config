@@ -16,7 +16,7 @@
   "homepage": "https://github.com/sharkcore/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^8.0.1",
-    "eslint": "^4.5.0",
+    "eslint": "^6.7.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-flowtype": "^2.35.0",
